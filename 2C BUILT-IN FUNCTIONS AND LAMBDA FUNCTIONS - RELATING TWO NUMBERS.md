@@ -1,12 +1,8 @@
 # Exp.No:2c
 ## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - RELATING TWO NUMBERS
 
----
-
 ### AIM  
 To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
-
----
 
 ### ALGORITHM
 
@@ -19,22 +15,16 @@ To write a Python program to check the relation between two numbers — whether 
 5. Call the lambda function by passing `num1` and `num2` as arguments.  
 6. Terminate the program.
 
----
-
 ### PROGRAM
-
 ```
-
+a=int(input())
+b=int(input())
+f=lambda a,b: (f"{a} is smaller than {b}")  if a<b else(f"{a} is greater than {b}" if(a>b) else(f"{a} is equal to{b}"))
+print(f(a,b))
 ```
-
 ### OUTPUT
 
-```
-
-```
+![image](https://github.com/user-attachments/assets/ee7de341-461d-40b7-b1fe-6fca4434af74)
 
 ### RESULT
-
-```
-
-```
+Thus the Python program using a lambda function to compare two numbers and display their relation was executed successfully and the output was verified.
